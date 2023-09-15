@@ -1,7 +1,7 @@
 const express = require("express");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const UploadModel = require("../model/UploadModel");
+const UploadModel = require("../model/uploadModel");
 const USER = require("../model/user"); // Import your User model
 
 
