@@ -2,9 +2,7 @@
 const express = require("express");
 const router = express.Router();
 const uploadMiddleware = require("../middlewares/MulterMiddleware");
-const UploadModel = require("../model/UploadModel");
 const { google } = require("googleapis");
-const drive = google.drive("v2");
 require("dotenv").config();
 const fs = require("fs");
 const REDIRECT = process.env.REDIRECT
